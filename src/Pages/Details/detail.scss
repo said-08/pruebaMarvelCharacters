@@ -1,0 +1,62 @@
+.box-content{
+    padding: 2% 1% 1% 250px;
+    position: relative;
+}
+
+.card{
+    color:rgb(0, 0, 0);
+    position: relative;
+    margin-top: 3rem;
+    border-radius: -10%;
+}
+
+.name-title{
+    text-align:center;
+    margin-top: 30px;
+}
+
+.definition{
+    width: 900px;
+    margin-top: 540px;
+    font-size:20px;
+    white-space: nowrap;
+  overflow: hidden;
+  white-space: initial;
+}
+
+.series-detail{
+    margin-top: 35px;
+}
+
+.card-detail{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px,1fr));
+    grid-gap:1rem;
+}
+
+.card-content{
+    height: 200px;
+    width: 200px;
+}
+
+.card-img{
+    width: 100%;
+    height: 75%;
+    transition: 0.5s;
+}
+
+.imagen-big{
+    border-radius: 1%;
+    box-shadow: 10px 10px 10px -4px rgb(65, 64, 64);
+    border-color: black;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 30%;
+}
+
+.rigt-box{
+    display: flex;
+    justify-content: center;
+}
