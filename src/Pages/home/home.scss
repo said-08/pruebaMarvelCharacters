@@ -3,10 +3,19 @@
 
 }
 
+.title-marvel{
+    display: flex;
+    justify-content: center;
+}
+
 .card:hover{
     box-shadow: 5px 5px 10px -4px rgb(65, 64, 64);
 }
 
-.card-img-top{
-    
+.content{
+    width: 80%;
+    margin: 3rem auto;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px,1fr));
+    grid-gap:1rem;
 }
